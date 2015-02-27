@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FivepointChessActivity!</string>
+    <string name="app_name">五子棋</string>
+
+    <string name="dj">单机模式</string>
+    <string name="wl">联网模式</string>
+    
+     <string name="lx">蚊子工作室 QQ:442560143</string>
+</resources>

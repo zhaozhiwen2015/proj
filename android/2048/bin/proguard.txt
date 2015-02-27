@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:40
+-keep class cn.domob.android.ads.DmActiviy { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class cn.zhaozhiwen.game2048.GameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class cn.zhaozhiwen.game2048.menu.MenuActivity { <init>(...); }
+

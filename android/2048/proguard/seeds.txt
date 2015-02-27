@@ -1,0 +1,12 @@
+cn.zhaozhiwen.game2048.GameActivity
+cn.zhaozhiwen.game2048.GameView
+cn.zhaozhiwen.game2048.GameView: GameView(android.content.Context)
+cn.zhaozhiwen.game2048.R$drawable: int ic_launcher
+cn.zhaozhiwen.game2048.R$drawable: int qrcode1
+cn.zhaozhiwen.game2048.R$layout: int main
+cn.zhaozhiwen.game2048.R$raw: int play
+cn.zhaozhiwen.game2048.R$string: int app_name
+cn.zhaozhiwen.game2048.R$string: int hello
+cn.zhaozhiwen.game2048.menu.MenuActivity
+cn.zhaozhiwen.game2048.menu.MenuView
+cn.zhaozhiwen.game2048.menu.MenuView: MenuView(android.content.Context)

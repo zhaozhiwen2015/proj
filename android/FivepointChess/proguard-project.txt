@@ -1,0 +1,67 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+-dontwarn android.**
+-dontwarn edu.edut.lsf.payment.link.**
+-libraryjars ..\Download_Install\lib\classes.jar
+
+-keep class org.jboss.netty.util.internal.AtomicFieldUpdaterUtil
+-keep class org.jboss.netty.util.internal.AtomicFieldUpdaterUtil$Node
+-keep class org.jboss.netty.util.internal.LinkedTransferQueue$Node
+-keep class edu.edut.robin.activities.LeWebJsActivity$AppStoreInterface
+-keepclasseswithmembers class * {
+    public static void main(java.lang.String[]);
+}
+-keepclasseswithmembers class org.jboss.netty.util.internal.AtomicFieldUpdaterUtil$Node {
+    *;
+}
+
+-keepclasseswithmembers class edu.edut.robin.activities.LeWebActionActivity$AppstoreWebInterface {
+    *;
+}
+-keepclasseswithmembers class edu.edut.robin.utils.SilentInstallAssistant$* {
+    *;
+}
+-keepclasseswithmembers class edu.edut.robin.silentinstaller.utils.SilentInstallAssistant$* {
+    *;
+}
+-keepclasseswithmembers class edu.edut.robin.utils.Pm$* {
+    *;
+}
+-keepclasseswithmembers class org.jboss.netty.util.internal.LinkedTransferQueue {
+    volatile transient org.jboss.netty.util.internal.LinkedTransferQueue$Node head;
+    volatile transient org.jboss.netty.util.internal.LinkedTransferQueue$Node tail;
+    volatile transient int sweepVotes;
+
+}
+-keepclasseswithmembers class org.jboss.netty.util.internal.LinkedTransferQueue$Node {
+    *;
+}
+-keepclasseswithmembers class edu.edut.robin.activities.LeWebJsActivity$AppStoreInterface {
+    *;
+}
+-keepclasseswithmembers class * extends edu.edut.lsf.payment.WebSubmitInterface {
+    *;
+}
+-keepclasseswithmembers class edu.edut.lsf.payment.WebSubmitInterface {
+    *;
+}
+-keep public class com.unionpay.** {*; }
+-keep public class edu.edut.lsf.** {*; }

@@ -1,0 +1,27 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+cn.zhaozhiwen.game2048.BuildConfig
+cn.zhaozhiwen.game2048.R
+cn.zhaozhiwen.game2048.R$attr
+cn.zhaozhiwen.game2048.R$drawable
+cn.zhaozhiwen.game2048.R$layout
+cn.zhaozhiwen.game2048.R$raw
+cn.zhaozhiwen.game2048.R$string
+cn.zhaozhiwen.game2048.Tile:
+    public static final java.lang.String TYPE_TOP_LEFT
+    public static final java.lang.String TYPE_TOP_MID_UP
+    public static final java.lang.String TYPE_TOP_MID_DOWN
+    public static final java.lang.String TYPE_CENTER
+    public static final java.lang.String TYPE_CENTER_TILE_NUM
+    public static final java.lang.String TYPE_CENTER_TILE
+    public static final java.lang.String TYPE_MENU
+    public static final java.lang.String TYPE_MENU_TAB
+    private float x2
+    private float y2
+    69:70:public void setX(float)
+    75:76:public void setY(float)
+    81:82:public void setX2(float)
+    87:88:public void setY2(float)
+    93:94:public void setTxt(java.lang.String)
+    105:106:public void setType(java.lang.String)
+    111:112:public void setColor(int)

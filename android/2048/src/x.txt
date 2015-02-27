@@ -1,0 +1,5 @@
+1.sound
+2.hightScore
+3.rank
+
+Bitmap  bitmap = BitmapFactory.decodeResource(this.getContext().getResources(), R.drawable.test);
